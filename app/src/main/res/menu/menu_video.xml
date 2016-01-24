@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/action_websearch"
+        android:icon="@drawable/action_search"
+        android:title=""
+        android:showAsAction="ifRoom|withText" />-->
+    <item
+        android:id="@+id/reload"
+        android:icon="@drawable/reload"
+        android:showAsAction="ifRoom|withText"
+        android:title="" />
+</menu>

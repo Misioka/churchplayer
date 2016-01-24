@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#014489">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|top">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/sceav"
+                    android:src="@drawable/logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="3dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    style="width: 100%;"
+                    android:gravity="center_horizontal|clip_horizontal"
+                    android:showDividers="beginning|middle|end">
+
+                    <ImageButton
+                        android:id="@+id/lq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/lq"
+                        android:scaleType="center"
+                        android:src="@drawable/play_lq_d"
+                        style="width: 100%;"
+                        android:layout_weight="0.33"
+                        android:padding="20dp" />
+
+                    <ImageButton
+                        android:id="@+id/hq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/hq"
+                        android:scaleType="center"
+                        android:src="@drawable/play_hq_d"
+                        android:layout_weight="0.33"
+                        android:layout_gravity="center"
+                        android:padding="20dp" />
+
+                    <ImageButton
+                        android:id="@+id/audio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/audio"
+                        android:focusableInTouchMode="true"
+                        android:scaleType="center"
+                        android:src="@drawable/play_audio_d"
+                        android:layout_gravity="bottom|center"
+                        android:layout_weight="0.33"
+                        android:padding="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#014489"/>
+</android.support.v4.widget.DrawerLayout>

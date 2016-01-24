@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">logo</string>
+    <string name="help">Jak si vzít kázání sebou nebo koukat online na cestách? ...</string>
+    <string name="no_connection">Žádné připojení k internetu!</string>
+    <string name="lq">lq</string>
+    <string name="hq">hq</string>
+    <string name="audio">audio</string>
+</resources>

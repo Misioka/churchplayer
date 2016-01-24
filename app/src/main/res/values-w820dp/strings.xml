@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+    <string name="live">ONLINE</string>
+    <string name="action_websearch">Search</string>
+    <string name="app_not_available">Error</string>
+    <string name="wait">Prosím čekejte...</string>
+    <string name="settings">Nastaveni</string>
+    <string name="livehi">Online HQ</string>
+    <string name="livelo">Online LQ</string>
+    <string name="exit">Ukončit</string>
+    <string name="wifi">WiFi</string>
+    <string name="mobileData">3G</string>
+    <string name="connectTitle">Připojte se prosím</string>
+    <string name="sceav">SCEAV Oldrichovice</string>
+    <string name="logo">logo</string>
+    <string name="help">Jak si vzít kázání sebou nebo koukat online na cestách? ...</string>
+    <string name="no_connection">Žádné připojení k internetu!</string>
+    <string name="lq">lq</string>
+    <string name="hq">hq</string>
+    <string name="audio">audio</string>
+</resources>
